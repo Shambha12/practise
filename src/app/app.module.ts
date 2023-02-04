@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { Child1Component } from './components/child1/child1.component';
 import { Subject1Component } from './components/subject1/subject1.component';
 import { Subject2Component } from './components/subject2/subject2.component';
+import { GithubComponent } from './components/github/github.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Child1Component,
     Subject1Component,
-    Subject2Component
+    Subject2Component,
+    GithubComponent
   ],
   imports: [
     BrowserModule,
