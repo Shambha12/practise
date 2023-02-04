@@ -1,0 +1,8 @@
+
+<div>
+    <h1>Child component</h1>
+    <label for="id2">Send data to parent</label>
+    <input type="text" name="" id="id2" #childData (keyup)="sendDataToParent(childData.value)">
+    <p>Data received from parent component:{{parentReceivedData}}</p>
+  </div>
+  
